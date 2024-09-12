@@ -1,0 +1,262 @@
+*{
+    margin:0 ;
+    padding: 0;
+    font-family: arial;
+}
+
+#navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    background:none !important;
+}
+#navbar.scroll-on{
+    position: fixed;
+    background-color: #e3e3e3 !important;
+    
+}
+#navbar.scroll-on .nav-link,#navbar.scroll-on #menubtn{
+    color: #000;
+}
+#navbar.scroll-on .nav-link:hover{
+    color: #f98603;
+}
+#navbarNav{
+    padding-right: 8% !important;
+}
+#logo{
+    padding-left: 5%;
+    
+}
+.nav-item{
+    padding-right: 30px;
+    font-weight: bold;
+}
+.nav-link{
+    color: #f4ba0b;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: #f98603;
+}
+
+/* top-section */
+#top-section{
+    
+    height: 100vh;
+    background: url(images/bg-1.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    padding: 10% 0 10%;
+}
+#top-div{
+    padding:  8% 8% 10%;
+}
+#top-section h1{
+    
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+#top-section h5{
+    color: #f98603;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+#top-section p{
+    color: #fff;
+    letter-spacing: 1px;
+}
+.web-btns{
+    padding: 1.5% 6%;
+    font-size: 15px;
+    word-spacing: 3px;
+    font-weight: 600;
+    background: #f98603;
+    border: 3px solid #f98603 ;
+ }
+ .web-btns:hover{
+    background: none;
+    color: white;
+    border-color: #f98603;
+ }
+/* Menu */
+#foodmenu{
+    padding: 2% 0;
+    
+}
+#foodmenu h3{
+    font-family: bookman old style !important;
+    color: #05bfa0;
+    padding-bottom: 2%;
+}
+#foodmenu h6{
+    text-align: center;
+}
+#foodmenu .card{
+    border: none;
+    transition: 0.4s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+/* About Us */
+#about{
+    background: #3e3d3d;
+    color: white;
+    padding: 8% 0 5%;
+}
+hr{
+    margin: 0;
+}
+#about h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #f4ba0b;
+}
+#about p{
+    text-align: justify;
+}
+
+/* Collage */
+#collage{
+    background: #3e3d3d;
+    color: white;
+    padding: 5% 0;
+}
+#collage h1{
+    padding:20% 0 3%;
+    font-size: 40px;
+    font-weight: 600;
+    color: #f7e9c0;
+}
+#collage p{
+    text-align: justify;
+}
+/* food-order */
+#food-order{
+    padding: 8% 0 5%;
+}
+#food-order .food-cards{
+    border: 1px solid grey;
+    padding: 0;
+    
+    border-radius: 0.375rem;
+}
+#food-order{
+    text-align: center;
+
+}
+#food-order h2{
+    font-weight: 650;
+    color: #05bfa0;
+}
+.food-cards{
+    margin: 3% 0;
+}
+.food-info{
+    padding: 2% 4%;
+}
+.food-info h4{
+    margin: 5% 0 5%;
+    font-weight: 550;
+}
+
+.food-info h5{
+    color: #f98603;
+    font-weight: bold;
+    font-family: bookman old style;
+    margin-bottom: 8%;
+}
+.food-info button{
+    margin-bottom: 3%;
+    color: #FFF;
+}
+.food-info button:hover{
+    color: #000;
+
+}
+
+/* Ratings */
+.progress{
+    margin: 3% 0;
+}
+#rating{
+    padding: 5% 0;
+}
+#rating h2{
+    color: #fdbe00;
+}
+#rating h1{
+    font-weight: 600;
+}
+
+/* Reviews */
+#review{
+    background: #3e3d3d;
+    padding: 8% 0 3%;
+}
+#review h2{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: bookman Old style;
+
+}
+.image{
+    margin: 1% auto !important;
+    color: white;
+    font-weight: 550;
+
+}
+#slide{
+    margin: 5% 0;
+    background: #f98603;
+    border-radius: 10px;
+    padding: 5% 0;
+}
+.image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 0 2%;
+
+}
+
+/* social-media */
+#social-media{
+    padding: 5% 0;
+    text-align: center;
+}
+.social{
+    margin: 4% 0;
+    transition: 0.2s;
+    padding: 2%;
+    border-radius: 10px;
+}
+.social a{
+    text-decoration: none;
+    color: #000;
+}
+.social a i{
+    color: #f98203;
+    font-size: 35px;
+}
+.social:hover{
+    transform: scale(1.2);
+    background-color: #c4bbbb;
+}
+
+/* Copy */
+#copy{
+    background-color: #3e3d3d;
+    padding:8px 0;
+}
+#copy h5{
+    color: #fff;
+    text-align: center;
+}

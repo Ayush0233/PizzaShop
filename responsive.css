@@ -1,0 +1,121 @@
+@media only screen and (max-width:){
+
+}
+
+@media only screen and (max-width: 1000px){
+    #navbar{
+        background: #e3e3e3 !important;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .nav-link{
+        color: #f19000;
+    }
+    #top-section{
+        padding-top: 20%;
+    }
+    #menubtn{
+        border-color: #f19000;
+     
+    }
+    #top-section h1{
+        font-size: 40px;
+    }
+    #top-section h5{
+        font-size: 22px ;
+    }
+    #collage h1{
+        padding:10% 0 3%;
+        font-size: 25px;
+    }
+}
+
+/*below 800px looks */
+@media only screen and (max-width:800px){
+    #top-section{
+        padding-top: 25%;
+        
+    }
+    #top-section h1{
+        font-size: 30px;
+    }
+    #foodmenu .card{
+        width:30%;
+        margin-top: 2%;
+    }
+    #collage h1{
+        padding:2% 0 3%;
+        font-size: 23px;
+    }
+    .food-info h4{
+        font-size: 15px;
+    }
+    #food-order .food-cards{
+        width: auto;
+    }
+    .social{
+        width: 40%;
+        margin-top: 2%;
+    }
+    
+
+}
+
+/* below 600px looks */
+@media only screen and (max-width:600px){
+    #top-section{
+        padding-top: 35%;
+        
+    }
+    #foodmenu .card{
+        width: 40%;
+        margin-top: 2%;
+    }
+    .food-info h4{
+        font-size: 25px;
+    }
+}
+
+/* below 450 px looks */
+@media only screen and (max-width:450px)    {
+    #top-section{
+        padding-top: 50%;
+        
+    }
+    #about h1{
+        font-size: 25px;
+    }
+    .food-info h4{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:300px){
+    #about h1{
+        font-size: 20px;
+    }
+}
+
+/* _______________________Height measure___________________ */
+/* @media only screen and (max-height: 1300px){
+    #top-section{
+        padding-top: 35% !important;
+    }
+    #top-section h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-height: 1000px){
+    #top-section{
+        padding-top: 50% !important;
+    }
+}
+@media only screen and (max-height: 800px){
+    #top-section{
+        padding-top: 50% !important;
+    }
+    #top-section h1{
+        font-size: 30px;
+    }
+} */
